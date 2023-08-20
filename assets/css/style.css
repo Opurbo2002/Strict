@@ -95,8 +95,8 @@ header .navbar{
 	background-color: #15a4fa;
 	transition: 0.3s all ease-in-out;
 }
-.banner-section .heading span:hover::before,
-.banner-section .heading span:hover::after{
+.heading span:hover::before,
+.heading span:hover::after{
 	width: 48%;
 	background-color: #15a4fa;
 }
