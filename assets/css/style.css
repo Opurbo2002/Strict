@@ -298,5 +298,8 @@ footer p{
 	color: #999999;
 	margin: auto;
 	margin-left: 8px;
-
+}
+.social-media .fa:hover{
+	color: #15a4fa;
+	transition: all 0.3s ease-in-out;
 }
