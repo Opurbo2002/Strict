@@ -1,0 +1,32 @@
+@media( max-width:425px){
+	.hero-content h1 {font-size: 70px;}
+	.heading span { width: 240px;margin-bottom:20px;}
+	.hero-content p {font-size: 14px; font-weight: 500;}
+	.hero-content .btn {font-size: 12px; margin-top: 30px;}
+	.fa { font-size: 22px;margin-top: 114px;}
+	.about-section h1 {font-size: 30px;}
+	.about-section p {font-size: 15px;padding: 0px 12px;margin: 0;}
+	.feature-section h2{font-size: 20px;}
+	.feature-section p {font-size: 12px;margin: 20px 45px;}
+	.showcase-section h1 {font-size: 26px;}
+	.contact-bg {min-height: 85vh;}
+	.contact-text {padding-top: 20px;}
+	.contact-section h1 {font-size: 34px;}
+	.contact-section p {font-size: 12px; margin-bottom: 0}
+	.contact-section .from-box {padding: 20px 0;width: 60%;}
+	.contact-section .checkbox label {margin-top: 5px;margin-left: 8px;font-size: 10px;}
+	.contact-section .from-box input[type='submit'] {padding: 6px 10px;font-size: 12px;}
+	.reverse{ flex-direction: column-reverse;}
+	.social-media .fa{font-size: 30px;}
+	.social-media ul{ text-align: center;margin-left: -30px; }
+	footer p{ text-align: center;font-size: 16px;}
+}
+
+@media( max-width:375px){
+	.hero-content p {font-size: 12px; font-weight: 500;}
+	.showcase-section h1 {font-size: 22px;}
+}
+@media( max-width:320px){
+	.hero-content p {font-size: 10px; font-weight: 500;}
+	.showcase-section h1 {font-size: 20px;}
+}
