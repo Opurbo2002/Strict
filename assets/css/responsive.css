@@ -23,10 +23,12 @@
 }
 
 @media( max-width:375px){
-	.hero-content p {font-size: 12px; font-weight: 500;}
+	.hero-content p {font-size: 12px;}
+	.about-section p {font-size: 13px;padding: 0px 14px;}
 	.showcase-section h1 {font-size: 22px;}
 }
 @media( max-width:320px){
-	.hero-content p {font-size: 10px; font-weight: 500;}
+	.hero-content p {font-size: 10px;}
+	.about-section p {font-size: 12px;padding: 0px 0px;}
 	.showcase-section h1 {font-size: 20px;}
 }
