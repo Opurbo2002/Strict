@@ -203,21 +203,26 @@ header .navbar{
 	color: #fff;
 }
 
-
 .contact-section{
-	min-height: 90vh;
+    background-image: url("../img/contact-bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0px 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
 }
-.contact-bg{
-	position: absolute;
-}
-.contact-bg::after{
-	content:"";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(46, 57, 77,.8);
+.contact-section::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(44, 54, 74);
+    opacity: 0.8;
+    z-index: -1;
 }
 .contact-text{
 	position: relative;
@@ -226,7 +231,6 @@ header .navbar{
 }
 
 .contact-section h1{
-	position: relative;
 	text-transform: capitalize;
 	font-size: 50px;
 	font-weight: 500;
