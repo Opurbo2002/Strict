@@ -1,9 +1,12 @@
 @media( max-width:425px){
+	header .navbar{ padding: 25px 0;}
+	.navbar .nav-item{ text-align: center;font-size: 15px; margin-top: 30px;}
+	.nav-link{ display: inline;}
 	.hero-content h1 {font-size: 70px;}
 	.heading span { width: 240px;margin-bottom:20px;}
 	.hero-content p {font-size: 14px; font-weight: 500;}
 	.hero-content .btn {font-size: 12px; margin-top: 30px;}
-	.fa { font-size: 22px;margin-top: 114px;}
+	.icon { font-size: 22px;margin-top: 114px;}
 	.about-section h1 {font-size: 30px;}
 	.about-section p {font-size: 15px;padding: 0px 12px;margin: 0;}
 	.feature-section h2{font-size: 20px;}

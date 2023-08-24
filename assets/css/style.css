@@ -20,6 +20,13 @@ header .navbar{
 	padding: 20px
 	color: #fff;
 }
+header .nav-link{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	border: 2px solid transparent;
+	color: #2d3950;
+}
 
 /*Banner Section Css*/
 .banner-section{
@@ -60,7 +67,7 @@ header .navbar{
 	border: 1px solid #15a4fa;
 	color: #fff;
 }
-.fa{
+.icon{
 	font-size: 30px;
     color: #fff;
     margin-top: 200px
